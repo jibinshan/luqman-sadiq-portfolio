@@ -11,7 +11,7 @@ export function Authority() {
   const isInView = useInView(ref, { once: true, margin: "-10%" });
 
   return (
-    <section className="flex min-h-screen items-center justify-center bg-pearl px-6 py-24 text-center">
+    <section className="flex h-[80vh] md:h-screen items-center justify-center bg-pearl px-6 py-24 text-center">
       <div ref={ref} className="max-w-6xl">
         <motion.p
           className="font-serif text-3xl leading-snug text-onyx text-balance md:text-5xl lg:text-6xl"
