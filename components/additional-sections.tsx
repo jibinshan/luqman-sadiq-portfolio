@@ -22,7 +22,7 @@ export function SoughtAfter() {
   );
 }
 
-const partners = ["/clients/aimer.png", "/clients/capkon.jpg", "/clients/dbi.jpg", "/clients/ecomount.jpg", "/clients/landmark.avif", "/clients/markaz.jpg", "/clients/sobha.png"];
+const partners = ["/clients/markaz.jpg", "/clients/aimer.png", "/clients/capkon.jpg", "/clients/dbi.jpg", "/clients/ecomount.jpg", "/clients/landmark.avif", "/clients/sobha.png","/clients/fastzone.jpeg"];
 
 export function PartnerMarquee() {
   return (
