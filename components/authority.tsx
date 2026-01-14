@@ -3,7 +3,7 @@
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 
-const text = "Luqman Sadiq is a global authority on capital mobilization and luxury real estate dominance, dedicated to structuring high-value portfolios that transcend conventional market benchmarks.";
+const text = "A globally connected real estate and capital advisory building high-value property portfolios beyond market returns, using data, deal structuring, and international partnerships to turn opportunities into long-term wealth.";
 const words = text.split(" ");
 
 export function Authority() {
@@ -11,7 +11,7 @@ export function Authority() {
   const isInView = useInView(ref, { once: true, margin: "-10%" });
 
   return (
-    <section className="flex h-[80vh] md:h-screen items-center justify-center bg-pearl px-6 py-24 text-center">
+    <section className="flex h-[90vh] md:h-screen items-center justify-center bg-pearl px-6 py-24 text-center">
       <div ref={ref} className="max-w-6xl">
         <motion.p
           className="font-serif text-3xl leading-snug text-onyx text-balance md:text-5xl lg:text-6xl"

@@ -16,7 +16,7 @@ export function SoughtAfter() {
         style={{ scale, opacity }}
         className="font-serif text-4xl md:text-6xl lg:text-7xl leading-tight text-pearl max-w-6xl"
       >
-        One of the region’s most successful and sought-after real estate strategists and investment advisors.
+        One of the most connected and high-performing real estate strategists working across international investment markets.
       </motion.p>
     </section>
   );

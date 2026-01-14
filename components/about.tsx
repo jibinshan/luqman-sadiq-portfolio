@@ -38,7 +38,7 @@ export function About() {
         >
             <h3 className="mb-8 font-serif text-3xl italic text-onyx">The Legacy</h3>
             <p className="font-sans text-sm font-extralight uppercase leading-loose tracking-widest text-onyx/80 md:text-base">
-            Over 15 years, Luqman Sadiq has redefined the business of real estate, blending analytical precision with creative strategy to secure 5,000+ landmark transactions. He is a seasoned business strategist, investment pool specialist, and mentor to elite sales teams.
+            Over nearly a decade, this operation has transformed the way real estate is executed, combining analytical precision with high-impact strategy to close thousands of high-value transactions while building investment pools, structuring long-term property portfolios, and developing elite sales teams capable of competing in fast-moving global markets.
             </p>
         </motion.div>
       </div>
