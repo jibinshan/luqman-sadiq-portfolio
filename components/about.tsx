@@ -14,10 +14,16 @@ export function About() {
   const y = useTransform(scrollYProgress, [0, 1], ["-10%", "10%"]);
 
   return (
-    <section ref={containerRef} className="flex min-h-screen flex-col md:flex-row bg-pearl text-onyx">
+    <section
+      ref={containerRef}
+      className="flex min-h-screen flex-col md:flex-row bg-pearl text-onyx"
+    >
       {/* Left: Visual (60%) */}
       <div className="relative h-[50vh] w-full overflow-hidden md:h-auto md:w-[60%]">
-        <motion.div style={{ y }} className="relative h-[120%] w-full -top-[10%]">
+        <motion.div
+          style={{ y }}
+          className="relative h-[120%] w-full -top-[10%]"
+        >
           <Image
             src="/legacy/aimer.jpeg"
             alt="Abstract Architecture"
@@ -31,15 +37,22 @@ export function About() {
       {/* Right: Text (40%) */}
       <div className="flex w-full flex-col justify-center px-8 py-20 md:w-[40%] md:px-16">
         <motion.div
-            initial={{ opacity: 0, x: 20 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.8 }}
+          initial={{ opacity: 0, x: 20 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.8 }}
         >
-            <h3 className="mb-8 font-serif text-3xl italic text-onyx">The Legacy</h3>
-            <p className="font-sans text-sm font-extralight uppercase leading-loose tracking-widest text-onyx/80 md:text-base">
-            Over nearly a decade, this operation has transformed the way real estate is executed, combining analytical precision with high-impact strategy to close thousands of high-value transactions while building investment pools, structuring long-term property portfolios, and developing elite sales teams capable of competing in fast-moving global markets.
-            </p>
+          <h3 className="mb-8 font-serif text-3xl italic text-onyx">
+            The Legacy
+          </h3>
+          <p className="font-sans text-sm font-extralight uppercase leading-loose tracking-widest text-onyx/80 md:text-base">
+            Over nearly a decade, this operation has transformed the way real
+            estate is executed, combining analytical precision with high-impact
+            strategy to close thousands of high-value transactions while
+            building investment pools, structuring long-term property
+            portfolios, and developing elite sales teams capable of competing in
+            fast-moving global markets.
+          </p>
         </motion.div>
       </div>
     </section>

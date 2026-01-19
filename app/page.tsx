@@ -7,6 +7,7 @@ import { Marquee } from "@/components/marquee";
 import { Expertise } from "@/components/expertise";
 import { Contact } from "@/components/contact";
 import { SoughtAfter, PartnerMarquee } from "@/components/additional-sections";
+import { BlogSection } from "@/components/blog-section";
 import { Footer } from "@/components/footer";
 
 export default function Home() {
@@ -28,6 +29,7 @@ export default function Home() {
         <SoughtAfter />
         <Expertise />
         <VisualBreak src="/legacy/sobha.avif" />
+        <BlogSection />
         <Contact />
       </div>
       
